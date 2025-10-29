@@ -9,10 +9,18 @@ def instructions():
 
     print('''
 conversion calculator 
-- volume
-- mass
-- distance
-- time 
+- When you enter the volume, the computer will calculate 
+ what you want to calculate in units of: ml, l, Kl, Ml
+ 
+- When you enter the mass, the computer will calculate 
+ what you want to calculate in units of: mg, g, kg, t 
+
+- When you enter the distance, the computer will calculate 
+ what you want to calculate in units of: mm, cm, m, km 
+
+- When you enter the time, the computer will calculate 
+ what you want to calculate in units of: ms, s, min, h, d, week, month, year,
+
     ''')
 
 
@@ -75,8 +83,8 @@ while True:
               "ms": 0.001,
               "s": 1,
               "min": 60,
-              "hour": 3600,
-              "day": 86400,
+              "h": 3600,
+              "d": 86400,
               "week": 604800,
               "month": 2629746,
               "year": 31556952
